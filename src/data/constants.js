@@ -92,6 +92,10 @@ export const Bio = {
           name: "Firebase",
           image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
         },
+        {
+          name: "Cloudinary",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cloudinary_logo.svg/640px-Cloudinary_logo.svg.png",
+        },
       ],
     },
     {
@@ -137,6 +141,11 @@ export const Bio = {
           image:
             "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
         },
+        {
+          name: "Google Cloud",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Google_cloud.png/640px-Google_cloud.png",
+        },
       ],
     },
   ];
@@ -144,6 +153,21 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      role: "MERN Fullstack Developer",
+      company: "ETHNUS",
+      date: "August 2023 - November 2023",
+      desc: "Built a fully functional Podcast Streaming Service using MERN toolkit.",
+      skills: [
+        "React.js", 
+        "Mongo DB", 
+        "Express.js",
+        "Node.js",
+        "Postman"
+      ],
+      doc: "https://drive.google.com/file/d/11eTsgmNXWgm1FOOqG0ywotw9ht1Db-FY/view?usp=sharing",
+    },
+    {
+      id: 1,
       role: "Flutter Developer Internship",
       company: "Wedsin Pvt. Ltd.",
       date: "June 2023 - August 2023",
@@ -157,7 +181,7 @@ export const Bio = {
       doc: "https://drive.google.com/file/d/1VwuqgMuG5Kp7rVSRu5qYI4qv_uUL3J3B/view?usp=share_link",
     },
     {
-      id: 1,
+      id: 2,
       role: "Open Source Contributor ",
       company: "HacktoberFest",
       date: "OCtober 2022 - Present",
@@ -173,7 +197,7 @@ export const Bio = {
       doc: "https://www.holopin.io/@robino420#",
     },
     {
-      id: 2,
+      id: 3,
       role: "Technical Team Member",
       company: "Android Club",
       date: "Nov2022 - Present",

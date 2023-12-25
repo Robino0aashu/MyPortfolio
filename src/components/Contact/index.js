@@ -129,8 +129,9 @@ const Contact = () => {
   const form = useRef();
 
   const handleSubmit = (e) => {
+    console.log('Button clicked');
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_i2j4oe7', 'template_bw919af', form.current, 'ATjr-WwqbBcWylES8')
       .then((result) => {
         setOpen(true);
         form.current.reset();
