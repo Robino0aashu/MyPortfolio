@@ -234,7 +234,7 @@ export const Bio = {
       description:
         "It is a podcast Streaming service where you can stream or even upload your own podcasts.",
       image:
-        "https://private-user-images.githubusercontent.com/103640421/338956662-695c72b2-3130-4735-b071-7e3307eddadc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTQyMjYsIm5iZiI6MTcxODE5MzkyNiwicGF0aCI6Ii8xMDM2NDA0MjEvMzM4OTU2NjYyLTY5NWM3MmIyLTMxMzAtNDczNS1iMDcxLTdlMzMwN2VkZGFkYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjA1MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02N2VmZTEwZjQyYjNjM2VjNjBiZjFhZTA5OWIyNWQzYTc1MTE3NzE4M2ZhZTFkMDQ2OGU2ODUxN2YwZDk1ODA1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.MhJQzUXq31Vn5Mn8TYfTlGntO4razHQs_VLMdighEi0",
+        "https://github.com/Robino0aashu/podify-frontend/assets/103640421/695c72b2-3130-4735-b071-7e3307eddadc",
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
       category: "web app",
       github: "https://github.com/Robino0aashu/podify-frontend",
@@ -260,7 +260,7 @@ export const Bio = {
       description:
         "Android app to predict diseases using an ML model based on the symptoms provided by the user.",
       image:
-        "https://private-user-images.githubusercontent.com/103640421/338962851-faf7115f-d2d3-45aa-bb53-3331cb29f05d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTUxMDcsIm5iZiI6MTcxODE5NDgwNywicGF0aCI6Ii8xMDM2NDA0MjEvMzM4OTYyODUxLWZhZjcxMTVmLWQyZDMtNDVhYS1iYjUzLTMzMzFjYjI5ZjA1ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjIwMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZmNmOWMwZDQ2NzlkNDhjMTQyNzg5MzFiYzcwMjgzOTYxNzMzOWU3OTkxMjc4NjljYzIzZjA1MmM2NDk5YWNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.zF0XDlBsalWmLJ0cIvhCPkqbeSozBm73lq58yAwYuVI",
+        "https://github.com/Robino0aashu/Qure-DiseasePredictor/assets/103640421/faf7115f-d2d3-45aa-bb53-3331cb29f05d",
       tags: ["Flutter", "Python", "TensorFlow", "Dart", "Firebase", "FastAPI"],
       category: "android app",
       github: "https://github.com/Robino0aashu/Qure-DiseasePredictor",
@@ -272,7 +272,7 @@ export const Bio = {
       description:
         "An android app to monitor fire and smoke via a remote camera using Websockets and Yolo-V8",
       image:
-        "https://private-user-images.githubusercontent.com/103640421/338967942-7ac53b11-3311-4650-b1cf-890f1e2e60d5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTYxMjMsIm5iZiI6MTcxODE5NTgyMywicGF0aCI6Ii8xMDM2NDA0MjEvMzM4OTY3OTQyLTdhYzUzYjExLTMzMTEtNDY1MC1iMWNmLTg5MGYxZTJlNjBkNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjM3MDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lY2M3YjE2YmYxYjk1MDMyODE5YThiZTlkZWE1ODQ1MWQ2YTgzYTFmODkyZjZlZjI5Zjk1YjBiMjQyNjI3YThjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.GglCoPjjsDdmmZNruZZluXqT7ALrCxOmH9gJjbBPkJo",
+        "https://github.com/samtholathrobin/Fire-Detection-CCTV/assets/103640421/7ac53b11-3311-4650-b1cf-890f1e2e60d5",
       tags: ["Flutter", "Yolo", "FastAPI", "Web Sockets"],
       category: "android app",
       github: "https://github.com/samtholathrobin/Fire-Detection-CCTV",
@@ -285,7 +285,7 @@ export const Bio = {
       description:
         "A modern portfolio website using React to showcase my projects, skills, and experience.",
       image:
-        "https://private-user-images.githubusercontent.com/103640421/338960365-397d86ec-6857-41a1-b4d4-72e893902977.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTQ1NzAsIm5iZiI6MTcxODE5NDI3MCwicGF0aCI6Ii8xMDM2NDA0MjEvMzM4OTYwMzY1LTM5N2Q4NmVjLTY4NTctNDFhMS1iNGQ0LTcyZTg5MzkwMjk3Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjExMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMTQ5MDI2YTk5ZjAyNDhmNDIxMzhmN2YyNzdlYmFiMzkzZDA0MzQ5NGU0YWNlNGY1NzliODVmZjNhMjk2MDdkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.b8pBMj0gB9zzZV04dMer03BQCVdXJR94tYb8iMGYdGs",
+        "https://github.com/Robino0aashu/MyPortfolio/assets/103640421/397d86ec-6857-41a1-b4d4-72e893902977",
       tags: [
         "React Js",
         "emailJS",
@@ -315,7 +315,7 @@ export const Bio = {
       description:
         "A Screen Recorder app for windows developed using tkinter",
       image:
-        "https://private-user-images.githubusercontent.com/103640421/263057500-c949c20e-3b7b-4295-898f-b5ed9aa6904c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTY4NjEsIm5iZiI6MTcxODE5NjU2MSwicGF0aCI6Ii8xMDM2NDA0MjEvMjYzMDU3NTAwLWM5NDljMjBlLTNiN2ItNDI5NS04OThmLWI1ZWQ5YWE2OTA0Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjQ5MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MmIzNzM1ZjAwMDQ0ZTc0ZjU1NzQ4MDk4ZWI3OWMxMTdkMDhkYjYwZDRjNjRiM2IwZDA4MDQ4M2U1ZjY0NzZiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.YB-_WDi4jH-YcrgvkJE2DZBjfwt5Vlfds0by-3WkRAs",
+        "https://github.com/Robino0aashu/Py-Screen-Recorder/assets/103640421/c949c20e-3b7b-4295-898f-b5ed9aa6904c",
       tags: ["Python", "tkinter", "GUI"],
       category: "",
       github: "https://github.com/Robino0aashu/Py-Screen-Recorder",
