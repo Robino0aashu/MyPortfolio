@@ -122,9 +122,13 @@ const Avatar = styled.img`
     border: 3px solid ${({ theme }) => theme.card};
 `
 
-const ProjectCards = ({project,setOpenModal}) => {
+const ProjectCard = ({project,setOpenModal}) => {
+    const handleCardClick = () => {
+        window.location.href = project.github;
+        
+    }
     return (
-        <Card >
+        <Card onClick={handleCardClick}>
             <Image src={project.image}/>
             <Tags>
                 {project.tags?.map((tag, index) => (
@@ -136,14 +140,9 @@ const ProjectCards = ({project,setOpenModal}) => {
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <Members>
-                {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
-                ))}
-            </Members>
-            {/* <Button>View Project</Button> */}
+            <Button>View Project</Button>
         </Card>
     )
 }
 
-export default ProjectCards
+export default ProjectCard

@@ -43,7 +43,7 @@ function App() {;
           <Wrapper>
             <Skills />
             <Experience />
-            {/* <Projects /> */}
+            <Projects />
             <Education />
             <Contact />
           </Wrapper>

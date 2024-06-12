@@ -153,6 +153,19 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      role: "App Developer",
+      company: "BOHOTREE",
+      date: "December 2023 - February 2024",
+      desc: "Built an E-commerce app for the company coupled with a Node.js backend.",
+      skills: [
+        "Flutter", 
+        "Dart",
+        "Postman", 
+        "Node",
+      ],
+    },
+    {
+      id: 1,
       role: "MERN Fullstack Developer",
       company: "ETHNUS",
       date: "August 2023 - November 2023",
@@ -167,7 +180,7 @@ export const Bio = {
       doc: "https://drive.google.com/file/d/11eTsgmNXWgm1FOOqG0ywotw9ht1Db-FY/view?usp=sharing",
     },
     {
-      id: 1,
+      id: 2,
       role: "Flutter Developer Internship",
       company: "Wedsin Pvt. Ltd.",
       date: "June 2023 - August 2023",
@@ -181,7 +194,7 @@ export const Bio = {
       doc: "https://drive.google.com/file/d/1VwuqgMuG5Kp7rVSRu5qYI4qv_uUL3J3B/view?usp=share_link",
     },
     {
-      id: 2,
+      id: 3,
       role: "Open Source Contributor ",
       company: "HacktoberFest",
       date: "OCtober 2022 - Present",
@@ -197,7 +210,7 @@ export const Bio = {
       doc: "https://www.holopin.io/@robino420#",
     },
     {
-      id: 3,
+      id: 4,
       role: "Technical Team Member",
       company: "Android Club",
       date: "Nov2022 - Present",
@@ -208,6 +221,105 @@ export const Bio = {
         "Flutter",
         "Firebase",
       ],
+    },
+  ];
+
+
+  
+  export const projects = [
+    {
+      id: 0,
+      title: "Podify",
+      date: "Oct 2023 - Dec 2023",
+      description:
+        "It is a podcast Streaming service where you can stream or even upload your own podcasts.",
+      image:
+        "https://private-user-images.githubusercontent.com/103640421/338956662-695c72b2-3130-4735-b071-7e3307eddadc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTQyMjYsIm5iZiI6MTcxODE5MzkyNiwicGF0aCI6Ii8xMDM2NDA0MjEvMzM4OTU2NjYyLTY5NWM3MmIyLTMxMzAtNDczNS1iMDcxLTdlMzMwN2VkZGFkYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjA1MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02N2VmZTEwZjQyYjNjM2VjNjBiZjFhZTA5OWIyNWQzYTc1MTE3NzE4M2ZhZTFkMDQ2OGU2ODUxN2YwZDk1ODA1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.MhJQzUXq31Vn5Mn8TYfTlGntO4razHQs_VLMdighEi0",
+      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      category: "web app",
+      github: "https://github.com/Robino0aashu/podify-frontend",
+      webapp: "https://podify-frontend.vercel.app",
+    },
+    {
+      id: 6,
+      title: "BOHOTREE",
+      date: "Dec 2023 - Feb 2023",
+      description:
+        "Made this E-commerce app for the company as a part of a freelance project.",
+      image:
+        "https://i.postimg.cc/mg7ZYSJr/boho-tree.jpg",
+      tags: ["Flutter", "Next Js", "Node Js", "Firebase"],
+      category: "android app",
+      github: "https://github.com/Robino0aashu",
+      webapp: "https://podify-frontend.vercel.app",
+    },
+    {
+      id: 2,
+      title: "Qure-Disease Predictor",
+      date: "Jan 2023 - Mar 2023",
+      description:
+        "Android app to predict diseases using an ML model based on the symptoms provided by the user.",
+      image:
+        "https://private-user-images.githubusercontent.com/103640421/338962851-faf7115f-d2d3-45aa-bb53-3331cb29f05d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTUxMDcsIm5iZiI6MTcxODE5NDgwNywicGF0aCI6Ii8xMDM2NDA0MjEvMzM4OTYyODUxLWZhZjcxMTVmLWQyZDMtNDVhYS1iYjUzLTMzMzFjYjI5ZjA1ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjIwMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZmNmOWMwZDQ2NzlkNDhjMTQyNzg5MzFiYzcwMjgzOTYxNzMzOWU3OTkxMjc4NjljYzIzZjA1MmM2NDk5YWNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.zF0XDlBsalWmLJ0cIvhCPkqbeSozBm73lq58yAwYuVI",
+      tags: ["Flutter", "Python", "TensorFlow", "Dart", "Firebase", "FastAPI"],
+      category: "android app",
+      github: "https://github.com/Robino0aashu/Qure-DiseasePredictor",
+    },
+    {
+      id: 3,
+      title: "Fire Detection- CCTV",
+      date: "Apr 2023 - May 2023",
+      description:
+        "An android app to monitor fire and smoke via a remote camera using Websockets and Yolo-V8",
+      image:
+        "https://private-user-images.githubusercontent.com/103640421/338967942-7ac53b11-3311-4650-b1cf-890f1e2e60d5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTYxMjMsIm5iZiI6MTcxODE5NTgyMywicGF0aCI6Ii8xMDM2NDA0MjEvMzM4OTY3OTQyLTdhYzUzYjExLTMzMTEtNDY1MC1iMWNmLTg5MGYxZTJlNjBkNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjM3MDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lY2M3YjE2YmYxYjk1MDMyODE5YThiZTlkZWE1ODQ1MWQ2YTgzYTFmODkyZjZlZjI5Zjk1YjBiMjQyNjI3YThjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.GglCoPjjsDdmmZNruZZluXqT7ALrCxOmH9gJjbBPkJo",
+      tags: ["Flutter", "Yolo", "FastAPI", "Web Sockets"],
+      category: "android app",
+      github: "https://github.com/samtholathrobin/Fire-Detection-CCTV",
+      webapp: "",
+    },
+    {
+      id: 1,
+      title: "Portfolio Website",
+      date: "Sept 2023 - Oct 2023",
+      description:
+        "A modern portfolio website using React to showcase my projects, skills, and experience.",
+      image:
+        "https://private-user-images.githubusercontent.com/103640421/338960365-397d86ec-6857-41a1-b4d4-72e893902977.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTQ1NzAsIm5iZiI6MTcxODE5NDI3MCwicGF0aCI6Ii8xMDM2NDA0MjEvMzM4OTYwMzY1LTM5N2Q4NmVjLTY4NTctNDFhMS1iNGQ0LTcyZTg5MzkwMjk3Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjExMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMTQ5MDI2YTk5ZjAyNDhmNDIxMzhmN2YyNzdlYmFiMzkzZDA0MzQ5NGU0YWNlNGY1NzliODVmZjNhMjk2MDdkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.b8pBMj0gB9zzZV04dMer03BQCVdXJR94tYb8iMGYdGs",
+      tags: [
+        "React Js",
+        "emailJS",
+      ],
+      category: "web app",
+      github: "https://github.com/Robino0aashu/MyPortfolio/",
+      webapp: "https://my-portfolio-kappa-ivory.vercel.app/",
+    },
+    
+    {
+      id: 10,
+      title: "Expense Manager",
+      date: "Jun 2022 - Jul 2022",
+      description:
+        "A flutter app designed for users to manage expenses efficiently.",
+      image:
+        "https://github.com/Robino0aashu/Expense-Manager/assets/103640421/406e2e0b-ab85-49ed-833c-3657a019825d",
+      tags: ["Flutter", "Dart", "Hive"],
+      category: "android app",
+      github: "https://github.com/Robino0aashu/Expense-Manager",
+      webapp: "",
+    },
+    {
+      id: 11,
+      title: "Py- Screen Recorder",
+      date: "Dec 2022 - Jan 2023",
+      description:
+        "A Screen Recorder app for windows developed using tkinter",
+      image:
+        "https://private-user-images.githubusercontent.com/103640421/263057500-c949c20e-3b7b-4295-898f-b5ed9aa6904c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgxOTY4NjEsIm5iZiI6MTcxODE5NjU2MSwicGF0aCI6Ii8xMDM2NDA0MjEvMjYzMDU3NTAwLWM5NDljMjBlLTNiN2ItNDI5NS04OThmLWI1ZWQ5YWE2OTA0Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxMjQ5MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MmIzNzM1ZjAwMDQ0ZTc0ZjU1NzQ4MDk4ZWI3OWMxMTdkMDhkYjYwZDRjNjRiM2IwZDA4MDQ4M2U1ZjY0NzZiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.YB-_WDi4jH-YcrgvkJE2DZBjfwt5Vlfds0by-3WkRAs",
+      tags: ["Python", "tkinter", "GUI"],
+      category: "",
+      github: "https://github.com/Robino0aashu/Py-Screen-Recorder",
+      webapp: "",
     },
   ];
   
@@ -233,8 +345,10 @@ export const Bio = {
       school: "St. Dominic Savio's High School, Patna",
       date: "Apr 2009 - Apr 2019",
       grade: "95.8%",
-      desc: "I completed my class 10 education at St. Dominic's where I completed my Elementary education.",
+      desc: "I completed my class 10 education at St. Dominic's.",
       degree: "CBSE(X), Science with Computer",
     },
   ];
+
+
   
