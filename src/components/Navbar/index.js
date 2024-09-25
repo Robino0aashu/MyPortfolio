@@ -20,6 +20,7 @@ import { Bio } from "../../data/constants";
         trastion: 0.8s all ease;
     }
 `;
+
  const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
