@@ -1,15 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
+import { FileText } from "lucide-react";
 
-const Document = styled.img`
+const Document = styled.div`
     display: none;
-    height: 70px;
-    width: fit-content;
-    background-color: #000;
-    border-radius: 10px;
-    &:hover{
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 40px;
+    width: 120px;
+    background-color: #306EE8;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
         cursor: pointer;
-        opacity: 0.8;
+        opacity: 0.9;
     }
 `
 
@@ -25,12 +33,12 @@ const Description = styled.div`
 `
 
 const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
-max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
 `
 
 const Card = styled.div`
@@ -62,7 +70,6 @@ const Card = styled.div`
     &:hover ${Span}{
         overflow: visible;
         -webkit-line-clamp: unset;
-
     }
 
     border: 0.1px solid #306EE8;
@@ -72,7 +79,7 @@ const Card = styled.div`
 const Top = styled.div`
     width: 100%;
     display: flex;
-    gap: 12px
+    gap: 12px;
 `
 
 const Image = styled.img`
@@ -90,7 +97,6 @@ const Body = styled.div`
     display: flex;
     flex-direction: column; 
 `
-
 
 const Role = styled.div`
     font-size: 18px;
@@ -119,7 +125,6 @@ const Date = styled.div`
     }
 `
 
-
 const Skills = styled.div`
     width: 100%;
     display: flex;
@@ -142,7 +147,18 @@ const Skill = styled.div`
     }
 `
 
-
+const CompanyLink = styled.a`
+  font-size: 14px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.text_secondary + 99};
+  text-decoration: none;  // remove underline
+  &:hover {
+    color: #306EE8;       // nice hover effect
+  }
+  @media only screen and (max-width: 768px){
+    font-size: 12px;
+  }
+`
 
 const ExperienceCard = ({ experience }) => {
     return (
@@ -151,14 +167,19 @@ const ExperienceCard = ({ experience }) => {
                 <Image src={experience.img} />
                 <Body>
                     <Role>{experience.role}</Role>
-                    <Company>{experience.company}</Company>
+                    {experience.companyUrl ? (
+                        <CompanyLink href={experience.companyUrl} target="_blank" rel="noopener noreferrer">
+                            {experience.company}
+                        </CompanyLink>
+                    ) : (
+                        <Company>{experience.company}</Company>
+                    )}
                     <Date>{experience.date}</Date>
                 </Body>
             </Top>
             <Description>
                 {experience?.desc &&
                     <Span>{experience?.desc}</Span>
-
                 }
                 {experience?.skills &&
                     <>
@@ -167,18 +188,21 @@ const ExperienceCard = ({ experience }) => {
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
+                                    <Skill key={index}>• {skill}</Skill>
                                 ))}
                             </ItemWrapper>
                         </Skills>
                     </>
                 }
             </Description>
-            {experience.doc &&
-                <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
+            {experience.doc && (
+                <a href={experience.doc} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                    <Document>
+                        <FileText size={18} />
+                        See More
+                    </Document>
                 </a>
-            }
+            )}
         </Card>
     )
 }
