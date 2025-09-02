@@ -3,6 +3,7 @@
 export const Bio = {
   name: "Aashu Kumar",
   roles: [
+    "Software Engineer",
     "Flutter Developer",
     "MERN Stack Developer",
     "Pythonista",
