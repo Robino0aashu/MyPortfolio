@@ -341,7 +341,7 @@ export const education = [
     id: 0,
     school: "Vellore Institute of Industrial Technology, Chennai",
     date: "Sept 2021 - July 2025",
-    grade: "8.97 CGPA",
+    grade: "8.98 CGPA",
     desc: "I am currently pursuing my BTech, CSE with specialization in AI and Robotics from Vellore Institute of Technology, Chennai under the guidance of some amazing professors. I have got the opportunity to study in this reputed University along with really smart brains and developers.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
