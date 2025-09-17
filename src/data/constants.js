@@ -245,6 +245,18 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
+    title: "SagaForge: Multiplayer Storytelling Game",
+    date: "Sept 2025 - Sept 2025",
+    description:
+      "SagaForge is a real-time, multiplayer narrative game.",
+    image:
+      "https://github.com/user-attachments/assets/c696f909-139b-4d46-9b3c-21d3d5962c53",
+    tags: ["React Js", "PostgreSQL", "Node Js", "Redis", "Socket.io", "Mistral AI"],
+    category: "web app",
+    github: "https://sagaforge.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Podify",
     date: "Oct 2023 - Dec 2023",
     description:
@@ -256,7 +268,7 @@ export const projects = [
     github: "https://podify-frontend.vercel.app",
   },
   {
-    id: 6,
+    id: 2,
     title: "BOHOTREE",
     date: "Dec 2023 - Feb 2023",
     description:
@@ -268,7 +280,7 @@ export const projects = [
     github: "https://github.com/Robino0aashu",
   },
   {
-    id: 2,
+    id: 3,
     title: "Qure-Disease Predictor",
     date: "Jan 2023 - Mar 2023",
     description:
@@ -280,7 +292,7 @@ export const projects = [
     github: "https://github.com/Robino0aashu/Qure-DiseasePredictor",
   },
   {
-    id: 3,
+    id: 4,
     title: "Fire Detection- CCTV",
     date: "Apr 2023 - May 2023",
     description:
@@ -293,7 +305,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 1,
+    id: 5,
     title: "Portfolio Website",
     date: "Sept 2023 - Oct 2023",
     description:
@@ -310,7 +322,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 6,
     title: "Expense Manager",
     date: "Jun 2022 - Jul 2022",
     description:
@@ -323,7 +335,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 11,
+    id: 7,
     title: "Py- Screen Recorder",
     date: "Dec 2022 - Jan 2023",
     description:
