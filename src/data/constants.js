@@ -153,6 +153,16 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 6,
+    role: "Software Engineer Intern",
+    company: "Microsoft",
+    companyUrl: "https://www.microsoft.com/",
+    date: "Nov 2025 - Present",
+    desc: "Working as a part of MS Azure Storage team.",
+    skills: ["Azure", "Python", "C#"],
+    doc: ""
+  },
+  {
     id: 0,
     role: "Software Engineer Intern (Platform Team)",
     company: "Earnin",
@@ -225,7 +235,7 @@ export const experiences = [
     doc: "https://www.holopin.io/@robino420#badges",
   },
   {
-    id: 4,
+    id: 5,
     role: "Technical Team Member",
     company: "Android Club",
     companyUrl: "https://www.linkedin.com/company/android-club-vitc/",
