@@ -16,7 +16,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1ZPTMssffSEqCitSnvvE9xQDTwB9s1p-v/view?usp=sharing",
   leetcode: "https://leetcode.com/aashu_kmr/",
-  linkedin: "https://www.linkedin.com/in/aashu-kumar-apr2004/",
+  linkedin: "https://www.linkedin.com/in/aashu-kmr/",
   twitter: "https://twitter.com/aashu_0o_",
   insta: "https://www.instagram.com/robino_0o_/",
   // facebook: "https://www.facebook.com/rishav.chanda.165/",
@@ -158,8 +158,8 @@ export const experiences = [
     company: "Microsoft",
     companyUrl: "https://www.microsoft.com/",
     date: "Nov 2025 - Present",
-    desc: "Working as a part of MS Azure Storage team.",
-    skills: ["Azure", "Python", "C#"],
+    desc: "Automating weekly SRP deployments to stage and canary regions by replacing manual monthly rollout processes, improving deployment reliability and accelerating change delivery",
+    skills: ["Azure", "Python", "C#", "Distributed Systems"],
     doc: ""
   },
   {
